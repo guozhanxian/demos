@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ralph.demo.dao.NodeListDao">
+    <resultMap id="nodeListMap" type="com.ralph.demo.bean.NodeList">
+        <id column="id" property="id" />
+        <result column="nodecontent" property="nodecontent" />
+        <result column="pid" property="pid" />
+    </resultMap>
+</mapper>
